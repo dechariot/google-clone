@@ -34,7 +34,11 @@ nav {
     align-items: center;
 }
 
-.nav-items a:hover {
+.nav-items {
+    font-weight: bold;
+}
+
+.nav-items:hover {
     text-decoration: underline;
 }
 
@@ -88,6 +92,7 @@ section {
     border-radius: 1rem;
     border: 1px solid whitesmoke;
     padding: 0 40px;
+    box-shadow: 0px 0px 3px rgb(224, 223, 223);
 }
 
 input:focus {
@@ -111,6 +116,7 @@ button {
     height: 2rem;
     color:lightslategray;
     border-radius: 4px;
+    box-shadow: 0px 0px 5px grey;
 }
 
 #offer-languages {
@@ -141,6 +147,7 @@ footer {
     display: flex;
     align-items: center;
     border-bottom: 1px solid gray;
+    font-weight: bold;
 }
 
 #footer-bottom {
@@ -163,6 +170,7 @@ footer {
     margin: 0 1rem;
     text-transform: capitalize;
     cursor: pointer;
+    font-weight: bold;
 }
 
 #footer-bottom-left a{
@@ -185,6 +193,7 @@ footer {
     margin: 0 1rem;
     text-transform: capitalize;
     cursor: pointer;
+    font-weight: bold;
 }
 
 #footer-bottom-right a{
